@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    src: url('./Poppins-Regular.ttf');
+    font-family: Poppins;
+}
+
+body{
+    font-family: Poppins;
+    color: white;
+    text-shadow: 0px 0px 1px black;
+}
+
+h1{
+    margin-top: 0;
+}
+
+.outerContainer{
+    background: url('https://media.giphy.com/media/xT8qBj0R6NI0eEoSpq/giphy.gif');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerContainer{
+    background: rgb(128,128,128, 0.7);
+    width: 400px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+button{
+    padding: 6px 12px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    margin: 4px 10px;
+}
+
+#increment-btn{
+    background: darkred;
+}
+
+#save-btn{
+    background: darkgreen;
+}
+
+#decrement-btn{
+    background: darkorange;
+}
+
+h1, h2, p{
+    margin: 10px;
+}
